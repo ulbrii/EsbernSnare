@@ -1,0 +1,331 @@
+/* Basic */
+
+h1 {
+  color: #EAEDEF;
+  font-size: 3rem;
+  letter-spacing: .7rem;
+  font-family: Josefin Sans, sans-serif;
+  text-align: center;
+  animation: fadeIn 8s ease, color-change 15s ease, glow 15s linear infinite, growth 8s ease;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #EAEDEF;
+  padding: 0;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Josefin Sans, sans-serif;
+  background-image: url("images/aviolentpeace-webpage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #EAEDEF;
+}
+
+a:hover {
+  color: #EAEDEF;
+  text-decoration: none;
+  text-shadow: 0 0 3px #EAEDEF;
+  transition: text-shadow 0.5s ease;
+}
+
+i:hover {
+  transform: scale(1.3);
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+/* Top Section */
+
+.top-section {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Title Section */
+
+.title-section {
+  position: relative;
+}
+
+.title {
+  padding-top: 3rem;
+}
+
+.title-box {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.sub-title {
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: .1rem;
+    padding: 1rem 0;
+    animation: fadeIn 15s ease, color-change 15s ease, glow 10s linear infinite;
+}
+
+/* Row */
+
+.row {
+  height: 33.3vh;
+  width: 100vw;
+  margin: 0;
+}
+
+/* Footer */
+
+.footer-section {
+  padding: 0;
+  position: relative;
+}
+
+.social-box {
+  margin: 9rem auto 0;
+  padding: 0;
+}
+
+.social-box a {
+  margin: 0 4rem;
+  animation: fadeIn 15s ease, color-change 10s ease;
+}
+
+/* Glow Animation */
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 #EAEDEF;
+  }
+
+  50% {
+    text-shadow: 0 0 4px #EAEDEF;
+  }
+
+  100% {
+    text-shadow: 0 #EAEDEF;
+  }
+}
+
+@-moz-keyframes glow {
+  0% {
+    text-shadow: 0 #EAEDEF;
+  }
+
+  50% {
+    text-shadow: 0 0 4px #EAEDEF;
+  }
+
+  100% {
+    text-shadow: 0 #EAEDEF;
+  }
+}
+
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0 #EAEDEF;
+  }
+
+  50% {
+    text-shadow: 0 0 4px #EAEDEF;
+  }
+
+  100% {
+    text-shadow: 0 #EAEDEF;
+  }
+}
+
+@-o-keyframes glow {
+  0% {
+    text-shadow: 0 #EAEDEF;
+  }
+
+  50% {
+    text-shadow: 0 0 4px #EAEDEF;
+  }
+
+  100% {
+    text-shadow: 0 #EAEDEF;
+  }
+}
+
+@-ms-keyframes glow {
+  0% {
+    text-shadow: 0 #EAEDEF;
+  }
+
+  50% {
+    text-shadow: 0 0 4px #EAEDEF;
+  }
+
+  100% {
+    text-shadow: 0 #EAEDEF;
+  }
+}
+
+/* Opacity Animation */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Color Animation */
+
+@-ms-keyframes color-change {
+  0% {
+    color: #506582;
+  }
+
+  100% {
+    color: #EAEDEF;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #506582;
+  }
+
+  100% {
+    color: #EAEDEF;
+  }
+}
+
+@-moz-keyframes color-change {
+  0% {
+    color: #506582;
+  }
+
+  100% {
+    color: #EAEDEF;
+  }
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: #506582;
+  }
+
+  100% {
+    color: #EAEDEF;
+  }
+}
+
+@-o-keyframes color-change {
+  0% {
+    color: #506582;
+  }
+
+  100% {
+    color: #EAEDEF;
+  }
+}
+
+/* Growth Animation */
+
+@-ms-keyframes growth {
+  0% {
+    letter-spacing: 0;
+  }
+
+  100% {
+    letter-spacing: .7rem;
+  }
+}
+
+@keyframes growth {
+  0% {
+    letter-spacing: 0;
+  }
+
+  100% {
+    letter-spacing: .7rem;
+  }
+}
+
+@-moz-keyframes growth {
+  0% {
+    letter-spacing: 0;
+  }
+
+  100% {
+    letter-spacing: .7rem;
+  }
+}
+
+@-webkit-keyframes growth {
+  0% {
+    letter-spacing: 0;
+  }
+
+  100% {
+    letter-spacing: .7rem;
+  }
+}
+
+@-o-keyframes growth {
+  0% {
+    letter-spacing: 0;
+  }
+
+  100% {
+    letter-spacing: .7rem;
+  }
+}
