@@ -70,7 +70,7 @@ i:hover {
 }
 
 .title {
-  margin: 8rem auto 0;
+  margin: 2rem auto 0;
 }
 
 .title-box {
@@ -84,7 +84,7 @@ i:hover {
     letter-spacing: .1rem;
     padding: 1rem 0;
     animation-delay: 10s;
-    animation: fadeIn 15s ease, color-change 15s ease, glow 10s linear infinite;
+    animation: fadeIn 30s ease, color-change 30s ease, glow 10s linear infinite;
 }
 
 /* Row */
@@ -111,9 +111,9 @@ i:hover {
   animation: fadeIn 10s ease, color-change 5s ease, spread 5s ease;
 }
 
-.copyright {
+.snippet {
   text-align: center;
-  margin: 6rem auto 0;
+  margin: 4rem auto 0;
   animation: fadeIn 10s ease, color-change 5s ease;
   letter-spacing: .3rem;
 }
@@ -126,6 +126,7 @@ i:hover {
 
 .nav-item {
   margin: 0 2rem;
+  font-size: 1rem;
 }
 
 /* Glow Animation */
