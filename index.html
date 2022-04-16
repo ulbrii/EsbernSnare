@@ -8,8 +8,13 @@
   <link rel="icon" href="images/esbernsnare.ico">
 
   <!-- Bootstrap & CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <!-- MD Bootstrap -->
+  <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+  <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,12 +23,6 @@
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/d6c1f9627b.js" crossorigin="anonymous"></script>
-
-  <!-- JQuery -->
-  <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
 
 </head>
 
@@ -37,19 +36,21 @@
 
     <section class="top-section row">
 
-    <div>
+      <div>
 
-    </div>
+      </div>
 
     </section>
 
 
-  <!-- Title Section -->
+    <!-- Title Section -->
 
     <section class="title-section row">
 
       <div class="title-box container">
-        <a href=""><h1 class="title">Esbern Snare</h1></a>
+        <a href="">
+          <h1 class="title">Esbern Snare</h1>
+        </a>
         <h4 class="sub-title">new album coming soon...</h4>
       </div>
 
@@ -60,50 +61,50 @@
     <section class="footer-section row">
 
       <div class="social-box container">
-          <a href="https://www.instagram.com/esbernsnare" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-          <a href="https://www.facebook.com/esbernsnaremusic" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-          <a href="mailto:esbernsnareband@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a></li>
-          <a href="https://esbernsnare.bandcamp.com/" target="_blank"><i class="fa-brands fa-bandcamp fa-2xl"></i></a></li>
-          <a href="https://open.spotify.com/artist/1VbRx9HJz7ZVbkp6TVy3eq" target="_blank"><i class="fa-brands fa-spotify fa-2xl"></i></a></li>
-          <p class="snippet">of Norfolk, VA</p>
+        <a href="https://www.instagram.com/esbernsnare" target="_blank"><i
+            class="fa-brands fa-instagram fa-2xl"></i></a></li>
+        <a href="https://www.facebook.com/esbernsnaremusic" target="_blank"><i
+            class="fa-brands fa-facebook fa-2xl"></i></a></li>
+        <a href="mailto:esbernsnareband@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a></li>
+        <a href="https://esbernsnare.bandcamp.com/" target="_blank"><i class="fa-brands fa-bandcamp fa-2xl"></i></a>
+        </li>
+        <a href="https://open.spotify.com/artist/1VbRx9HJz7ZVbkp6TVy3eq" target="_blank"><i
+            class="fa-brands fa-spotify fa-2xl"></i></a></li>
+        <p class="snippet">of Norfolk, VA</p>
       </div>
 
     </section>
 
-<!-- Navbar -->
+    <!-- Navbar -->
 
     <section class="navbar-section">
 
       <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark p-md-3">
         <div class="container-fluid">
-          <a href="" class="navbar-brand"><img class="img-fluid" src="images/esbernsnare-logo-sm.png" alt="esbernsnare-logo"></a>
+          <a href="" class="navbar-brand d-none d-lg-block"><img class="img-fluid" src="images/esbernsnare-logo-sm.png"
+              alt="esbernsnare-logo"></a>
 
-          <button
-            type="button"
-            class="navbar-toggler"
-            data-bs-target="#navbarNav"
-            data-bs-toggle="collapse"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle Navbar"
-            >
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a href="" class="nav-link text-white">Home</a></li>
+              <li class="nav-item"><a data-bs-toggle="modal" href="#about" class="nav-link text-white">About</a></li>
+              <li class="nav-item"><a data-bs-toggle="modal" href="#photos" class="nav-link text-white">Photos</a></li>
+              <li class="nav-item"><a data-bs-toggle="modal" href="#discography"
+                  class="nav-link text-white">Discography</a></li>
+              <li class="nav-item"><a data-bs-toggle="modal" href="#contact" class="nav-link text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <button type="button" class="navbar-toggler m-auto ms-lg-auto" data-bs-target="#navbarNav"
+            data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="" class="nav-link text-white">Home</a></li>
-                <li class="nav-item"><a data-bs-toggle="modal" href="#about" class="nav-link text-white">About</a></li>
-                <li class="nav-item"><a data-bs-toggle="modal" href="#photos" class="nav-link text-white">Photos</a></li>
-                <li class="nav-item"><a data-bs-toggle="modal" href="#discography" class="nav-link text-white">Discography</a></li>
-                <li class="nav-item"><a href="mailto:esbernsnareband@gmail.com" class="nav-link text-white">Contact</a></li>
-              </ul>
-          </div>
 
         </div>
       </nav>
 
-   </section>
+    </section>
 
   </section>
 
@@ -119,17 +120,15 @@
 
           <div class="modal-header">
             <h1 class="modal-title text-center">Who We Are</h1>
-            <div class="position-static">
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="close"></button>
-            </div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="close"></button>
           </div>
 
           <!-- Members -->
-          
+
           <div class="modal-body">
             <div class="container-fluid">
 
-            <!-- Row 1 -->
+              <!-- Row 1 -->
 
               <div class="row justify-content-center">
 
@@ -137,46 +136,56 @@
                 <div class="about-header col-12 text-center">
                   <h2>Members</h2>
                 </div>
-                
+
                 <!-- Col 1 -->
                 <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-                  <img id="ljon"class="img-fluid" src="images/lukejones-rounded.png" alt="lukejones" onmouseover="src='images/lukejones-action-rounded.png'" onmouseout="src='images/lukejones-rounded.png'">
+                  <img id="ljon" class="img-fluid" src="images/lukejones-rounded.png" alt="lukejones"
+                    onmouseover="src='images/lukejones-action-rounded.png'"
+                    onmouseout="src='images/lukejones-rounded.png'">
                   <h3>Luke Jones</h3>
                   <p>vocals, keys</p>
                 </div>
 
                 <!-- Col 2 -->
                 <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-                  <img id="ajon" class="img-fluid" src="images/adamjones-rounded.png" alt="adamjones" onmouseover="src='images/adamjones-action-rounded.png'" onmouseout="src='images/adamjones-rounded.png'">
+                  <img id="ajon" class="img-fluid" src="images/adamjones-rounded.png" alt="adamjones"
+                    onmouseover="src='images/adamjones-action-rounded.png'"
+                    onmouseout="src='images/adamjones-rounded.png'">
                   <h3>Adam Jones</h3>
                   <p>keys, synths</p>
                 </div>
 
                 <!-- Col 3 -->
                 <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-                  <img id="jbrock" class="img-fluid" src="images/josephbrockman-rounded.png" alt="josephbrockman" onmouseover="src='images/josephbrockman-action-rounded.png'" onmouseout="src='images/josephbrockman-rounded.png'">
+                  <img id="jbrock" class="img-fluid" src="images/josephbrockman-rounded.png" alt="josephbrockman"
+                    onmouseover="src='images/josephbrockman-action-rounded.png'"
+                    onmouseout="src='images/josephbrockman-rounded.png'">
                   <h3>Joseph Brockman</h3>
                   <p>guitar</p>
                 </div>
 
                 <!-- Col 4 -->
                 <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-                  <img id="jcrum" class="img-fluid" src="images/josiahcrumrine-rounded.png" alt="josiahcrumrine" onmouseover="src='images/josiahcrumrine-action-rounded.png'" onmouseout="src='images/josiahcrumrine-rounded.png'">
+                  <img id="jcrum" class="img-fluid" src="images/josiahcrumrine-rounded.png" alt="josiahcrumrine"
+                    onmouseover="src='images/josiahcrumrine-action-rounded.png'"
+                    onmouseout="src='images/josiahcrumrine-rounded.png'">
                   <h3>Josiah Crumrine</h3>
                   <p>bass, backing vocals</p>
                 </div>
 
                 <!-- Col 5 -->
                 <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-                  <img id="edryf" class="img-fluid" src="images/ericdryfka-rounded.png" alt="ericdryfka" onmouseover="src='images/ericdryfka-action-rounded.png'" onmouseout="src='images/ericdryfka-rounded.png'">
+                  <img id="edryf" class="img-fluid" src="images/ericdryfka-rounded.png" alt="ericdryfka"
+                    onmouseover="src='images/ericdryfka-action-rounded.png'"
+                    onmouseout="src='images/ericdryfka-rounded.png'">
                   <h3>Eric Dryfka</h3>
                   <p>drums</p>
                 </div>
 
               </div>
-            
 
-            <!-- Row 2 -->
+
+              <!-- Row 2 -->
 
               <div class="row justify-content-center">
 
@@ -190,15 +199,47 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
 
                 </div>
-                
+
                 <!-- Col 2 -->
                 <div class="col-lg-3 col-md-6 col-sm-12 text-center">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh hendrerit nec. Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis nunc, vitae hendrerit arcu venenatis non. Integer ut sagittis purus. Aliquam aliquam tortor diam. Nulla facilisi. Donec cursus hendrerit interdum. Praesent iaculis imperdiet ante, at sollicitudin ex scelerisque ut. Maecenas volutpat placerat semper. Fusce a ligula pretium, faucibus ligula vitae, malesuada eros. Maecenas lacinia vel purus ut pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris aliquam accumsan augue, ac iaculis turpis efficitur quis.
-                    Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel mollis dolor elit eu nibh. Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer euismod posuere orci, non efficitur nibh efficitur eu. Fusce et tortor neque. Sed blandit ultricies fringilla. Ut rutrum nunc sit amet metus pharetra, nec malesuada enim volutpat. Aenean tortor velit, euismod eget nisl non, consectetur pellentesque est. Vivamus eget dolor leo. Cras volutpat velit quam, non dapibus sapien bibendum non. Etiam sagittis sollicitudin lacus, eu rhoncus lectus suscipit ac.
-                    Ut quis tempor leo. Fusce gravida sed urna id dictum. Proin tincidunt dapibus risus quis bibendum. Quisque interdum ipsum justo, vel elementum ante sodales sit amet. Ut eu lobortis dui. Curabitur nec aliquam leo. Sed non mauris mi. In quis molestie velit, et pulvinar nunc. Mauris ullamcorper orci leo, sit amet dapibus ligula feugiat non.
-                    Mauris nec velit dignissim, fringilla dui vel, viverra tellus. Integer dignissim in ipsum vitae vehicula. Aliquam neque leo, convallis ut blandit nec, rutrum placerat augue. Donec rutrum quam mi. Sed id ex ligula. Vestibulum ante sapien, cursus ac dictum semper, rhoncus nec nisi. Duis vel consectetur lorem. Suspendisse maximus volutpat dolor, nec maximus libero tempor sit amet. In sed enim nisl. Pellentesque placerat neque sem, hendrerit hendrerit mauris sagittis quis. Phasellus euismod nunc ac tortor malesuada, vel placerat risus maximus. Integer et volutpat libero.
-                    Maecenas ligula lacus, tristique sed pretium sed, egestas sed nisl. Praesent semper aliquam nisl eget convallis. Mauris quis commodo nisl. Vivamus finibus consectetur nulla, eget elementum mauris dapibus vitae. Pellentesque elementum aliquam malesuada. Etiam pretium, massa at finibus ornare, ante nisi consequat justo, vel suscipit lorem dolor non odio. Morbi varius dolor nulla, a viverra elit elementum et. Aliquam ullamcorper volutpat sem, nec varius mi dictum quis. In bibendum dignissim purus, quis euismod lacus viverra vel. Duis euismod magna sem, vel sagittis ligula ultrices at. Quisque rhoncus mi at metus viverra suscipit sit amet et lacus. Pellentesque sodales ex ac diam iaculis euismod.
-                    Donec iaculis purus sit amet nisl rutrum finibus sit amet nec ligula. Cras eu dui tellus. Praesent mollis ex accumsan, suscipit arcu sed, hendrerit purus. Sed sed condimentum nulla. Vestibulum efficitur molestie libero, eget congue mauris fringilla sit amet. Nunc pretium consequat turpis, at laoreet felis tristique in. Aenean ut fringilla odio, sed consectetur turpis. Vivamus vitae feugiat tortor. Etiam neque lectus, lacinia vel neque non, rhoncus malesuada nisi. Pellentesque porta lobortis ipsum.
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
+                    hendrerit nec. Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis
+                    nunc, vitae hendrerit arcu venenatis non. Integer ut sagittis purus. Aliquam aliquam tortor diam.
+                    Nulla facilisi. Donec cursus hendrerit interdum. Praesent iaculis imperdiet ante, at sollicitudin ex
+                    scelerisque ut. Maecenas volutpat placerat semper. Fusce a ligula pretium, faucibus ligula vitae,
+                    malesuada eros. Maecenas lacinia vel purus ut pellentesque. Orci varius natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus mus. Mauris aliquam accumsan augue, ac iaculis turpis
+                    efficitur quis.
+                    Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel mollis dolor elit
+                    eu nibh. Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer euismod posuere
+                    orci, non efficitur nibh efficitur eu. Fusce et tortor neque. Sed blandit ultricies fringilla. Ut
+                    rutrum nunc sit amet metus pharetra, nec malesuada enim volutpat. Aenean tortor velit, euismod eget
+                    nisl non, consectetur pellentesque est. Vivamus eget dolor leo. Cras volutpat velit quam, non
+                    dapibus sapien bibendum non. Etiam sagittis sollicitudin lacus, eu rhoncus lectus suscipit ac.
+                    Ut quis tempor leo. Fusce gravida sed urna id dictum. Proin tincidunt dapibus risus quis bibendum.
+                    Quisque interdum ipsum justo, vel elementum ante sodales sit amet. Ut eu lobortis dui. Curabitur nec
+                    aliquam leo. Sed non mauris mi. In quis molestie velit, et pulvinar nunc. Mauris ullamcorper orci
+                    leo, sit amet dapibus ligula feugiat non.
+                    Mauris nec velit dignissim, fringilla dui vel, viverra tellus. Integer dignissim in ipsum vitae
+                    vehicula. Aliquam neque leo, convallis ut blandit nec, rutrum placerat augue. Donec rutrum quam mi.
+                    Sed id ex ligula. Vestibulum ante sapien, cursus ac dictum semper, rhoncus nec nisi. Duis vel
+                    consectetur lorem. Suspendisse maximus volutpat dolor, nec maximus libero tempor sit amet. In sed
+                    enim nisl. Pellentesque placerat neque sem, hendrerit hendrerit mauris sagittis quis. Phasellus
+                    euismod nunc ac tortor malesuada, vel placerat risus maximus. Integer et volutpat libero.
+                    Maecenas ligula lacus, tristique sed pretium sed, egestas sed nisl. Praesent semper aliquam nisl
+                    eget convallis. Mauris quis commodo nisl. Vivamus finibus consectetur nulla, eget elementum mauris
+                    dapibus vitae. Pellentesque elementum aliquam malesuada. Etiam pretium, massa at finibus ornare,
+                    ante nisi consequat justo, vel suscipit lorem dolor non odio. Morbi varius dolor nulla, a viverra
+                    elit elementum et. Aliquam ullamcorper volutpat sem, nec varius mi dictum quis. In bibendum
+                    dignissim purus, quis euismod lacus viverra vel. Duis euismod magna sem, vel sagittis ligula
+                    ultrices at. Quisque rhoncus mi at metus viverra suscipit sit amet et lacus. Pellentesque sodales ex
+                    ac diam iaculis euismod.
+                    Donec iaculis purus sit amet nisl rutrum finibus sit amet nec ligula. Cras eu dui tellus. Praesent
+                    mollis ex accumsan, suscipit arcu sed, hendrerit purus. Sed sed condimentum nulla. Vestibulum
+                    efficitur molestie libero, eget congue mauris fringilla sit amet. Nunc pretium consequat turpis, at
+                    laoreet felis tristique in. Aenean ut fringilla odio, sed consectetur turpis. Vivamus vitae feugiat
+                    tortor. Etiam neque lectus, lacinia vel neque non, rhoncus malesuada nisi. Pellentesque porta
+                    lobortis ipsum.
                   </p>
                 </div>
 
@@ -207,80 +248,93 @@
 
                 </div>
 
-        </div>  
-      </div>
-
-        <!-- Modal Footer -->
+              </div>
+            </div>
+          </div>
+          <!-- About Modal Footer -->
 
           <div class="modal-footer">
-            <button type="button-close" data-bs-dismiss="modal" class="btn btn-lg btn-outline-light" aria-label="close">Back to Home</button>
+            <button type="button-close" data-bs-dismiss="modal" class="btn btn-lg btn-outline-light"
+              aria-label="close">Back to Home</button>
           </div>
         </div>
       </div>
-    </div>
 
-   </section>
+  </section>
 
-   <!-- Photos Modal -->
+  <!-- Photos Modal -->
 
-   <section class="photos-section">
+  <section class="photos-section">
 
-    <div id="photos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div id="photos" class="modal fade">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
         <div class="modal-content">
 
           <!-- Modal Header -->
 
           <div class="modal-header">
+            <h1 class="modal-title text-center">Photos</h1>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="close"></button>
           </div>
 
-          <!-- Carousel -->
-          
-          <div class="modal-body">
-          <div id="photo-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="false">
-                <img class="d-block w-100" src="/images/band1.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item" data-bs-interval="false">
-                <img class="d-block w-100" src="/images/band2.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item" data-bs-interval="false">
-                <img class="d-block w-100" src="/images/band3.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item" data-bs-interval="false">
-                <img class="d-block w-100" src="/images/band4.jpg" alt="Fourth slide">
-              </div>
-              <div class="carousel-item" data-bs-interval="false">
-                <img class="d-block w-100" src="/images/band5.jpg" alt="Fifth slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#photo-carousel" type="button" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden"></span>
-            </a>
-            <a class="carousel-control-next" href="#photo-carousel" type="button" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden"></span>
-            </a>
-          </div>
-        </div>
+          <!-- Photos -->
 
-        <!-- Modal Footer -->
+          <div class="modal-body">
+
+            <!-- Row 1 -->
+
+            <div class="row">
+
+              <div class="col text-center">
+                <img class="img-fluid" src="/images/band1.jpg">
+                <p>location: Jewish Mother Hilltop | Virginia Beach, VA</p>
+                <p class="modal-subtext"><i class="fa-solid fa-camera-retro"></i></p>
+              </div>
+
+              <div class="col text-center">
+                <img class="img-fluid" src="/images/band2.jpg">
+                <p>location: Big House | album release show | Norfolk, VA</p>
+                <p class="modal-subtext"><i class="fa-solid fa-camera-retro"></i></p>
+              </div>
+
+              <div class="col text-center"><img class="img-fluid" src="/images/band3.jpg">
+                <p>location: Big House | album release show | Norfolk, VA</p>
+                <p class="modal-subtext"><i class="fa-solid fa-camera-retro"></i></p>
+              </div>
+
+            </div>
+
+            <!-- Row 2 -->
+
+            <div class="row">
+              <div class="col text-center"><img class="img-fluid" src="/images/band4.jpg"></div>
+              <div class="col text-center"><img class="img-fluid" src="/images/band5.jpg"></div>
+              <div class="col text-center"></div>
+            </div>
+
+            <div class="row">
+              <div class="col text-center"></div>
+              <div class="col text-center"></div>
+              <div class="col text-center"></div>
+            </div>
+
+          </div>
+
+          <!-- Photos Modal Footer -->
 
           <div class="modal-footer">
-            <a href="#" class="tooltip-test" title="Tooltip"><i class="fa-solid fa-circle-camera"></i></a>
+            <button type="button-close" data-bs-dismiss="modal" class="btn btn-lg btn-outline-light"
+              aria-label="close">Back to Home</button>
           </div>
         </div>
       </div>
     </div>
 
-   </section>
+  </section>
 
-   <!-- Discography Modal -->
+  <!-- Discography Modal -->
 
-   <section class="discography-section">
+  <section class="discography-section">
 
     <div id="discography" class="modal fade">
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
@@ -290,20 +344,18 @@
 
           <div class="modal-header">
             <h1 class="modal-title text-center">Discography</h1>
-            <div class="position-static">
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="close"></button>
-            </div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="close"></button>
           </div>
 
           <!-- Albums -->
-          
-          <div class="modal-body">
+
+          <div class="modal-body justify-content-center">
             <div class="container-fluid">
 
-            <!-- Row 1 -->
+              <!-- Row 1 -->
 
               <div class="row">
-                
+
                 <!-- Col 1 -->
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <img class="img-fluid mx-auto" src="images/aviolentpeace.jpg" alt="aviolentpeace">
@@ -313,9 +365,19 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 position-relative">
                   <h3>A Violent Peace</h3>
                   <h6>released March 28th, 2014</h6>
-                    <p>Our debut album</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
+                    hendrerit nec. Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis
+                    nunc, vitae hendrerit arcu venenatis non. Integer ut sagittis purus. Aliquam aliquam tortor diam.
+                    Nulla facilisi. Donec cursus hendrerit interdum. Praesent iaculis imperdiet ante, at sollicitudin ex
+                    scelerisque ut. Maecenas volutpat placerat semper. Fusce a ligula pretium, faucibus ligula vitae,
+                    malesuada eros. Maecenas lacinia vel purus ut pellentesque. Orci varius natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus mus. Mauris aliquam accumsan augue, ac iaculis turpis
+                    efficitur quis. Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel
+                    mollis dolor elit eu nibh. Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer
+                    euismod posuere orci, non efficitur nibh efficitur eu. Fusce et tortor neque. Sed blandit ultricies
+                    fringilla.</p>
 
-                    <div class="d-none d-lg-block">
+                  <div class="d-none d-lg-block">
                     <p class="modal-subtext">All songs written, arranged, and performed by Esbern Snare</p>
                     <p class="modal-subtext">Produced by Jonathan Anderson and Esbern Snare</p>
                     <p class="modal-subtext">Recorded and Mixed by Jonathan Anderson at Whalehead Records</p>
@@ -325,23 +387,41 @@
                     <p class="modal-subtext">Photography by Ashley Fielden</p>
                     <p class="modal-subtext">Esbern Snare typography by Alec Mangum</p>
                   </div>
-              </div>
+                </div>
 
                 <!-- Col 3 -->
                 <div class="col-lg-3 col-md-6 col-sm-12 embed-responsive embed-responsive-1by1">
-                  <iframe class="embed-responsive-item" src="https://bandcamp.com/EmbeddedPlayer/album=2588797094/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless>
-                  <a href="https://esbernsnare.bandcamp.com/album/a-violent-peace">A Violent Peace by Esbern Snare</a>
-                </iframe>
+                  <iframe class="embed-responsive-item"
+                    src="https://bandcamp.com/EmbeddedPlayer/album=2588797094/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
+                    seamless>
+                    <a href="https://esbernsnare.bandcamp.com/album/a-violent-peace">A Violent Peace by Esbern Snare</a>
+                  </iframe>
                 </div>
 
                 <!-- Col 4 -->
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                  <p>...</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
+                    hendrerit nec.
+                    Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis nunc, vitae
+                    hendrerit arcu venenatis non.
+                    Integer ut sagittis purus. Aliquam aliquam tortor diam. Nulla facilisi. Donec cursus hendrerit
+                    interdum.
+                    Praesent iaculis imperdiet ante, at sollicitudin ex scelerisque ut. Maecenas volutpat placerat
+                    semper.
+                    Fusce a ligula pretium, faucibus ligula vitae, malesuada eros. Maecenas lacinia vel purus ut
+                    pellentesque.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Mauris aliquam accumsan augue, ac iaculis turpis efficitur quis.
+                    Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel mollis dolor elit
+                    eu nibh.
+                    Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer euismod posuere orci, non
+                    efficitur nibh efficitur eu.
+                    Fusce et tortor neque. Sed blandit ultricies fringilla.</p>
                 </div>
               </div>
-            
 
-            <!-- Row 2 -->
+
+              <!-- Row 2 -->
 
               <div class="row">
 
@@ -354,11 +434,13 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 position-relative">
                   <h3>Joys of Kin | EP</h3>
                   <h6>released April 25, 2016</h6>
-                    <p>As a follow up to our debut album 'A Violent Peace',
-                      we hoped to create a more bare-bones experience of our music with songs in their most original and true form.
-                      To do so, we sat down in a small room with producer and artist Jake Hull, set up a few microphones,
-                      and captured the following: a live, one night recording of new material from Luke Jones of Esbern Snare.
-                    </p>
+                  <p>As a follow up to our debut album 'A Violent Peace',
+                    we hoped to create a more bare-bones experience of our music with songs in their most original and
+                    true form.
+                    To do so, we sat down in a small room with producer and artist Jake Hull, set up a few microphones,
+                    and captured the following: a live, one night recording of new material from Luke Jones of Esbern
+                    Snare.
+                  </p>
 
                   <div class="d-none d-lg-block">
                     <p class="modal-subtext">Artwork design by Alec Mangum</p>
@@ -370,67 +452,229 @@
 
                 <!-- Col 3 -->
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                  <iframe src="https://bandcamp.com/EmbeddedPlayer/album=1207544751/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://esbernsnare.bandcamp.com/album/joys-of-kin-ep">Joys of Kin EP by Esbern Snare</a></iframe>
+                  <iframe
+                    src="https://bandcamp.com/EmbeddedPlayer/album=1207544751/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
+                    seamless><a href="https://esbernsnare.bandcamp.com/album/joys-of-kin-ep">Joys of Kin EP by Esbern
+                      Snare</a></iframe>
                 </div>
 
                 <!-- Col 4 -->
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                  <p>...</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
+                    hendrerit nec.
+                    Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis nunc, vitae
+                    hendrerit arcu venenatis non.
+                    Integer ut sagittis purus. Aliquam aliquam tortor diam. Nulla facilisi. Donec cursus hendrerit
+                    interdum.
+                    Praesent iaculis imperdiet ante, at sollicitudin ex scelerisque ut. Maecenas volutpat placerat
+                    semper.
+                    Fusce a ligula pretium, faucibus ligula vitae, malesuada eros. Maecenas lacinia vel purus ut
+                    pellentesque.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Mauris aliquam accumsan augue, ac iaculis turpis efficitur quis.
+                    Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel mollis dolor elit
+                    eu nibh.
+                    Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer euismod posuere orci, non
+                    efficitur nibh efficitur eu.
+                    Fusce et tortor neque. Sed blandit ultricies fringilla.</p>
                 </div>
               </div>
 
-            <!-- Row 3 -->
+              <!-- Row 3 -->
 
-          <div class="row">
+              <div class="row">
 
-            <!-- Col 1 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-              <img class="img-fluid mx-auto" src="images/doesitfeel.png" alt="doesitfeellikeimnotthere">
-            </div>
+                <!-- Col 1 -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <img class="img-fluid mx-auto" src="images/doesitfeel.png" alt="doesitfeellikeimnotthere">
+                </div>
 
-            <!-- Col 2 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-              <h3>Does it Feel Like I'm Not There?</h3>
-              <h6>arriving Fall 2022</h6>
-              <p>Our sophomore album.</p>
+                <!-- Col 2 -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <h3>Does it Feel Like I'm Not There?</h3>
+                  <h6>arriving Fall 2022</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
+                    hendrerit nec. Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis
+                    nunc, vitae hendrerit arcu venenatis non. Integer ut sagittis purus. Aliquam aliquam tortor diam.
+                    Nulla facilisi. Donec cursus hendrerit interdum. Praesent iaculis imperdiet ante, at sollicitudin ex
+                    scelerisque ut. Maecenas volutpat placerat semper. Fusce a ligula pretium, faucibus ligula vitae,
+                    malesuada eros. Maecenas lacinia vel purus ut pellentesque. Orci varius natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus mus. Mauris aliquam accumsan augue, ac iaculis turpis
+                    efficitur quis. Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel
+                    mollis dolor elit eu nibh. Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer
+                    euismod posuere orci, non efficitur nibh efficitur eu. Fusce et tortor neque. Sed blandit ultricies
+                    fringilla.</p>
 
-              <div class="d-none d-lg-block">
-                <p class="modal-subtext">All songs written, arranged, and performed by Esbern Snare</p>
-                <p class="modal-subtext">Artwork design by Luke Jones</p>
-                <p class="modal-subtext">Recorded by Micah Lindstrom at Morgan Horse Studios</p>
-                <p class="modal-subtext">Mixed by Ben Mekkes at <a target="_blank" href="http://www.ownitmusic.productions/">OWNIT Music</a></p>
-                <p class="modal-subtext">Mastered by ...</p>
+                  <div class="d-none d-lg-block">
+                    <p class="modal-subtext">All songs written, arranged, and performed by Esbern Snare</p>
+                    <p class="modal-subtext">Artwork design by Luke Jones</p>
+                    <p class="modal-subtext">Recorded by Micah Lindstrom at Morgan Horse Studios</p>
+                    <p class="modal-subtext">Mixed by Ben Mekkes at <a target="_blank"
+                        href="http://www.ownitmusic.productions/">OWNIT Music</a></p>
+                    <p class="modal-subtext">Mastered by ...</p>
+                  </div>
+                </div>
+
+                <!-- Col 3 -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <p>...</p>
+                </div>
+
+                <!-- Col 4 -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
+                    hendrerit nec.
+                    Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis nunc, vitae
+                    hendrerit arcu venenatis non.
+                    Integer ut sagittis purus. Aliquam aliquam tortor diam. Nulla facilisi. Donec cursus hendrerit
+                    interdum.
+                    Praesent iaculis imperdiet ante, at sollicitudin ex scelerisque ut. Maecenas volutpat placerat
+                    semper.
+                    Fusce a ligula pretium, faucibus ligula vitae, malesuada eros. Maecenas lacinia vel purus ut
+                    pellentesque.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Mauris aliquam accumsan augue, ac iaculis turpis efficitur quis.
+                    Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel mollis dolor elit
+                    eu nibh.
+                    Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer euismod posuere orci, non
+                    efficitur nibh efficitur eu.
+                    Fusce et tortor neque. Sed blandit ultricies fringilla.</p>
+                </div>
               </div>
-            </div>
 
-            <!-- Col 3 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-              <p>...</p>
-            </div>
-
-            <!-- Col 4 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-              <p>...</p>
             </div>
           </div>
 
-        </div>  
-      </div>
-
-        <!-- Modal Footer -->
+          <!-- Discography Modal Footer -->
 
           <div class="modal-footer">
-            <button type="button-close" data-bs-dismiss="modal" class="btn btn-lg btn-outline-light" aria-label="close">Back to Home</button>
+            <button type="button-close" data-bs-dismiss="modal" class="btn btn-lg btn-outline-light"
+              aria-label="close">Back to Home</button>
           </div>
         </div>
       </div>
     </div>
 
-   </section>
+  </section>
 
-<!-- JavaScript Link -->
-    <script type="text/javascript" src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Contact Modal -->
+
+  <section class="contact-section">
+
+    <div id="contact" class="modal fade">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+
+          <div class="modal-header">
+            <h1 class="modal-title text-center">Contact</h1>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="close"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <!--Section: Contact v.2-->
+            <section class="mb-4">
+
+              <!--Section heading-->
+              <h2 class="h1-responsive font-weight-bold text-center my-4">Send Us a Message</h2>
+              <!--Section description-->
+              <p class="text-center w-responsive mx-auto mb-5">We'd love to hear from you! Feel free to reach out to us
+                anytime.</p>
+
+              <div class="row justify-content-center">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                        <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                        </div>
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                        <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                        </div>
+                      </div>
+                      <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-12">
+
+                        <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="5"
+                            class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                        </div>
+
+                      </div>
+                    </div>
+                    <!--Grid row-->
+
+                  </form>
+
+                  <div class="text-center text-md-left">
+                    <a class="btn btn-outline-light" onclick="validateForm();">Send</a>
+                  </div>
+                  <div class="status"></div>
+                </div>
+                <!--Grid column-->
+
+              </div>
+
+            </section>
+            <!--Section: Contact v.2-->
+
+          </div>
+
+          <!-- Contact Modal Footer -->
+
+          <div class="modal-footer">
+            <button type="button-close" data-bs-dismiss="modal" class="btn btn-lg btn-outline-light"
+              aria-label="close">Back to Home</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- JavaScript Link -->
+  <script type="text/javascript" src="main.js"></script>
+
+  <!-- Bootstrap JacaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
