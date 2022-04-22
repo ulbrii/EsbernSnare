@@ -1,13 +1,35 @@
-const express = require('express');
+// Band Members Array
 
-const app = express();
+const bandMembers = [
+	{
+		name: 'lukejones',
+		id: 'ljon'
+	},
+	{
+		name: 'adamjones',
+		id: 'ajon'
+	},
+	{
+		name: 'josephbrockman',
+		id: 'jbrock'
+	},
+	{
+		name: 'josiahcrumrine',
+		id: 'jcrum'
+	},
+	{
+		name: 'ericdryfka',
+		id: 'edryf'
+	}
+];
 
-app.use(express.static(__dirname + '/public'));
-
-app.get('/', function(req, res) {
-	res.sendFile(__dirname + '/index.html');
-});
-
-app.listen(3000, function() {
-	console.log('Server is up and running on port 3000!');
-});
+// Adding photo change on 'hover' effect via event listener to all band member photos
+for (let member of bandMembers) {
+	let memberPhoto = document.querySelector(`#${member.id}`);
+	memberPhoto.addEventListener('mouseover', () =>
+		memberPhoto.setAttribute('src', `/public/images/${member.name}-action-rounded.png`)
+	);
+	memberPhoto.addEventListener('mouseout', () =>
+		memberPhoto.setAttribute('src', `/public/images/${member.name}-rounded.png`)
+	);
+}
