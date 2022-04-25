@@ -6,7 +6,7 @@ h1 {
 	letter-spacing: .7rem;
 	font-family: Josefin Sans, sans-serif;
 	text-align: center;
-	animation: fadeIn 10s ease, color-change 10s ease, glow 10s linear infinite, growth 8s ease;
+	animation: fadeIn 10s ease, color-change 10s ease,glow 10s linear infinite, growth 8s ease;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -202,20 +202,25 @@ h6 {
 	animation: fadeIn 1s ease;
 }
 
-/* Footer */
+/* Social Section */
 
-.footer-section {
+.social-section {
 	padding: 0;
 	position: relative;
 }
 
-.social-box {
+.social-box, .modal-social {
 	text-align: center;
 }
 
 .social-box a {
 	margin: 0 5rem;
 	animation: fadeIn 10s ease, color-change 5s ease, spread 5s ease;
+}
+
+.modal-social a {
+	margin: 0 1rem;
+	animation: none;
 }
 
 .snippet {
