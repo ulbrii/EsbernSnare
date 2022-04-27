@@ -255,7 +255,7 @@
           <!-- About Modal Footer -->
 
           <div class="modal-footer">
-            <button type="button-close" data-bs-dismiss="modal" class="btn btn-lg btn-outline-light d-none d-sm-block"
+            <button type="button-close" data-bs-dismiss="modal" class="btn btn-lg btn-outline-light"
               aria-label="close">Back to Home</button>
           </div>
         </div>
@@ -365,19 +365,29 @@
           <div class="modal-body justify-content-center">
             <div class="container-fluid">
 
-              <!-- Row 1 -->
+              <!-- A Violent Peace -->
 
               <div class="row">
 
-                <!-- Col 1 -->
-                <div class="col-lg-6 col-sm-12">
+                <!-- Album Cover -->
+                <div class="col-lg-5 col-md-12">
                   <img class="img-fluid mx-auto" src="/public/images/aviolentpeace.jpg" alt="aviolentpeace">
                 </div>
 
-                <!-- Col 2 -->
-                <div class="col-lg-6 col-sm-12 position-relative">
+                <!-- Album Info -->
+                <div class="col-lg-5 col-md-12 position-relative">
                   <h3>A Violent Peace</h3>
                   <h6>released March 28th, 2014</h6>
+
+                  <!-- Buttons -->
+                  <button class="btn btn-outline-light album-button" data-bs-toggle="offcanvas" data-bs-target="#aViolentPeacePlay"
+                    aria-controls="aViolentPeacePlay">play</button>
+                  <button class="btn btn-outline-light album-button" data-bs-toggle="offcanvas" data-bs-target="#aViolentPeaceLyrics"
+                    aria-controls="aViolentPeaceLyrics">lyrics</button>
+
+                  <hr>
+
+                  <!-- Description -->
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
                     hendrerit nec. Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis
                     nunc, vitae hendrerit arcu venenatis non. Integer ut sagittis purus. Aliquam aliquam tortor diam.
@@ -390,7 +400,8 @@
                     euismod posuere orci, non efficitur nibh efficitur eu. Fusce et tortor neque. Sed blandit ultricies
                     fringilla.</p>
 
-                  <div class="d-none d-lg-block">
+                  <!-- Credits -->
+                  <div>
                     <p class="modal-subtext">All songs written, arranged, and performed by Esbern Snare</p>
                     <p class="modal-subtext">Produced by Jonathan Anderson and Esbern Snare</p>
                     <p class="modal-subtext">Recorded and Mixed by Jonathan Anderson at Whalehead Records</p>
@@ -400,160 +411,196 @@
                     <p class="modal-subtext">Photography by Ashley Fielden</p>
                     <p class="modal-subtext">Esbern Snare typography by Alec Mangum</p>
                   </div>
-                </div>
 
-                <!-- Col 3 -->
-                <div class="col-lg-6 col-sm-12 embed-responsive embed-responsive-1by1">
-                  <iframe class="embed-responsive-item"
-                    src="https://bandcamp.com/EmbeddedPlayer/album=2588797094/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
-                    seamless>
-                    <a href="https://esbernsnare.bandcamp.com/album/a-violent-peace">A Violent Peace by Esbern Snare</a>
-                  </iframe>
-                </div>
+                  <hr>
 
-                <!-- Col 4 -->
-                <div class="col-lg-6 col-sm-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
-                    hendrerit nec.
-                    Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis nunc, vitae
-                    hendrerit arcu venenatis non.
-                    Integer ut sagittis purus. Aliquam aliquam tortor diam. Nulla facilisi. Donec cursus hendrerit
-                    interdum.
-                    Praesent iaculis imperdiet ante, at sollicitudin ex scelerisque ut. Maecenas volutpat placerat
-                    semper.
-                    Fusce a ligula pretium, faucibus ligula vitae, malesuada eros. Maecenas lacinia vel purus ut
-                    pellentesque.
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                    Mauris aliquam accumsan augue, ac iaculis turpis efficitur quis.
-                    Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel mollis dolor elit
-                    eu nibh.
-                    Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer euismod posuere orci, non
-                    efficitur nibh efficitur eu.
-                    Fusce et tortor neque. Sed blandit ultricies fringilla.</p>
-                </div>
-              </div>
+                  <!-- Album Play -->
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="aViolentPeacePlay"
+                    aria-labelledby="aViolentPeacePlay">
+                    <div class="offcanvas-header">
+                      <h5 id="offcanvasPlayLabel">A Violent Peace</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <iframe class="embed-responsive-item"
+                        src="https://bandcamp.com/EmbeddedPlayer/album=2588797094/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
+                        seamless>
+                        <a href="https://esbernsnare.bandcamp.com/album/a-violent-peace">A Violent Peace by Esbern
+                          Snare</a>
+                      </iframe>
+                    </div>
+                  </div>
 
-              <!-- Row 2 -->
-
-              <div class="row">
-
-                <!-- Col 1 -->
-                <div class="col-lg-6 col-sm-12">
-                  <img class="img-fluid mx-auto hover-overlay" src="/public/images/joysofkin.jpg" alt="joysofkin">
-                </div>
-
-                <!-- Col 2 -->
-                <div class="col-lg-6 col-sm-12 position-relative">
-                  <h3>Joys of Kin | EP</h3>
-                  <h6>released April 25, 2016</h6>
-                  <p>As a follow up to our debut album 'A Violent Peace',
-                    we hoped to create a more bare-bones experience of our music with songs in their most original and
-                    true form.
-                    To do so, we sat down in a small room with producer and artist Jake Hull, set up a few microphones,
-                    and captured the following: a live, one night recording of new material from Luke Jones of Esbern
-                    Snare.
-                  </p>
-
-                  <div class="d-none d-lg-block">
-                    <p class="modal-subtext">Artwork design by Alec Mangum</p>
-                    <p class="modal-subtext">Recordings captured live by Jake Hull</p>
-                    <p class="modal-subtext">Mixing and mastering by Jake Hull</p>
-                    <p class="modal-subtext">All original songs by Esbern Snare</p>
+                  <!-- Album Lyrics -->
+                  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="aViolentPeaceLyrics"
+                    aria-labelledby="aViolentPeaceLyrics">
+                    <div class="offcanvas-header">
+                      <h5 id="offcanvasLyricsLabel">A Violent Peace</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      ...
+                    </div>
                   </div>
                 </div>
 
-                <!-- Col 3 -->
-                <div class="col-lg-6 col-sm-12">
-                  <iframe
-                    src="https://bandcamp.com/EmbeddedPlayer/album=1207544751/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
-                    seamless><a href="https://esbernsnare.bandcamp.com/album/joys-of-kin-ep">Joys of Kin EP by Esbern
-                      Snare</a></iframe>
+                <!-- Joys of Kin | EP -->
+
+                <div class="row">
+
+                  <!-- Album Cover -->
+                  <div class="col-lg-5 col-md-12">
+                    <img class="img-fluid mx-auto hover-overlay" src="/public/images/joysofkin.jpg" alt="joysofkin">
+                  </div>
+
+                  <!-- Album Info -->
+                  <div class="col-lg-5 col-md-12 position-relative">
+                    <h3>Joys of Kin | EP</h3>
+                    <h6>released April 25, 2016</h6>
+
+                    <!-- Buttons -->
+                    <button class="btn btn-outline-light album-button" data-bs-toggle="offcanvas" data-bs-target="#joysOfKinPlay"
+                      aria-controls="joysOfKinPlay">play</button>
+                    <button class="btn btn-outline-light album-button" data-bs-toggle="offcanvas" data-bs-target="#joysOfKinLyrics"
+                      aria-controls="joysOfKinLyrics">lyrics</button>
+
+                    <hr>
+
+                    <!-- Description -->
+                    <p>As a follow up to our debut album 'A Violent Peace',
+                      we hoped to create a more bare-bones experience of our music with songs in their most original and
+                      true form.
+                      To do so, we sat down in a small room with producer and artist Jake Hull, set up a few
+                      microphones,
+                      and captured the following: a live, one night recording of new material from Luke Jones of Esbern
+                      Snare.
+                    </p>
+
+                    <!-- Credits -->
+                    <div>
+                      <p class="modal-subtext">Artwork design by Alec Mangum</p>
+                      <p class="modal-subtext">Recordings captured live by Jake Hull</p>
+                      <p class="modal-subtext">Mixing and mastering by Jake Hull</p>
+                      <p class="modal-subtext">All original songs by Esbern Snare</p>
+                    </div>
+
+                    <hr>
+
+                  </div>
+
+                  <!-- Album Play -->
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="joysOfKinPlay" aria-labelledby="joysOfKinPlay">
+                    <div class="offcanvas-header">
+                      <h5 id="offcanvasPlayLabel">Joys of Kin | EP</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <iframe class="embed-responsive-item"
+                        src="https://bandcamp.com/EmbeddedPlayer/album=1207544751/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
+                        seamless><a href="https://esbernsnare.bandcamp.com/album/joys-of-kin-ep">Joys of Kin EP by
+                          Esbern
+                          Snare</a>
+                      </iframe>
+                    </div>
+                  </div>
+
+                  <!-- Album Lyrics -->
+                  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="joysOfKinLyrics"
+                    aria-labelledby="joysOfKinLyrics">
+                    <div class="offcanvas-header">
+                      <h5 id="offcanvasLyricsLabel">Joys of Kin | EP</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      ...
+                    </div>
+                  </div>
+
                 </div>
 
-                <!-- Col 4 -->
-                <div class="col-lg-6 col-sm-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
-                    hendrerit nec.
-                    Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis nunc, vitae
-                    hendrerit arcu venenatis non.
-                    Integer ut sagittis purus. Aliquam aliquam tortor diam. Nulla facilisi. Donec cursus hendrerit
-                    interdum.
-                    Praesent iaculis imperdiet ante, at sollicitudin ex scelerisque ut. Maecenas volutpat placerat
-                    semper.
-                    Fusce a ligula pretium, faucibus ligula vitae, malesuada eros. Maecenas lacinia vel purus ut
-                    pellentesque.
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                    Mauris aliquam accumsan augue, ac iaculis turpis efficitur quis.
-                    Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel mollis dolor elit
-                    eu nibh.
-                    Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer euismod posuere orci, non
-                    efficitur nibh efficitur eu.
-                    Fusce et tortor neque. Sed blandit ultricies fringilla.</p>
-                </div>
-              </div>
+                <!-- does it feel like i'm not there? -->
 
-              <!-- Row 3 -->
+                <div class="row">
 
-              <div class="row">
+                  <!-- Album Cover -->
+                  <div class="col-lg-5 col-md-12">
+                    <img class="img-fluid mx-auto" src="/public/images/doesitfeel.png" alt="doesitfeellikeimnotthere">
+                  </div>
 
-                <!-- Col 1 -->
-                <div class="col-lg-6 col-sm-12">
-                  <img class="img-fluid mx-auto" src="/public/images/doesitfeel.png" alt="doesitfeellikeimnotthere">
-                </div>
+                  <!-- Album Info -->
+                  <div class="col-lg-5 col-md-12">
+                    <h3>does it feel like i'm not there?</h3>
+                    <h6>arriving Fall 2022</h6>
 
-                <!-- Col 2 -->
-                <div class="col-lg-6 col-sm-12">
-                  <h3>Does it Feel Like I'm Not There?</h3>
-                  <h6>arriving Fall 2022</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
-                    hendrerit nec. Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis
-                    nunc, vitae hendrerit arcu venenatis non. Integer ut sagittis purus. Aliquam aliquam tortor diam.
-                    Nulla facilisi. Donec cursus hendrerit interdum. Praesent iaculis imperdiet ante, at sollicitudin ex
-                    scelerisque ut. Maecenas volutpat placerat semper. Fusce a ligula pretium, faucibus ligula vitae,
-                    malesuada eros. Maecenas lacinia vel purus ut pellentesque. Orci varius natoque penatibus et magnis
-                    dis parturient montes, nascetur ridiculus mus. Mauris aliquam accumsan augue, ac iaculis turpis
-                    efficitur quis. Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel
-                    mollis dolor elit eu nibh. Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer
-                    euismod posuere orci, non efficitur nibh efficitur eu. Fusce et tortor neque. Sed blandit ultricies
-                    fringilla.</p>
+                    <!-- Buttons -->
+                    <button class="btn btn-outline-light album-button" data-bs-toggle="offcanvas" data-bs-target="#doesItFeelPlay"
+                      aria-controls="doesItFeelPlay">play</button>
+                    <button class="btn btn-outline-light album-button" data-bs-toggle="offcanvas" data-bs-target="#doesItFeelLyrics"
+                      aria-controls="doesItFeelLyrics">lyrics</button>
 
-                  <div class="d-none d-lg-block">
-                    <p class="modal-subtext">All songs written, arranged, and performed by Esbern Snare</p>
-                    <p class="modal-subtext">Artwork design by Luke Jones</p>
-                    <p class="modal-subtext">Recorded by Micah Lindstrom at Morgan Horse Studios</p>
-                    <p class="modal-subtext">Mixed by Ben Mekkes at <a target="_blank"
-                        href="http://www.ownitmusic.productions/">OWNIT Music</a></p>
-                    <p class="modal-subtext">Mastered by ...</p>
+                    <hr>
+
+                    <!-- Description -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
+                      hendrerit nec. Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis
+                      nunc, vitae hendrerit arcu venenatis non. Integer ut sagittis purus. Aliquam aliquam tortor diam.
+                      Nulla facilisi. Donec cursus hendrerit interdum. Praesent iaculis imperdiet ante, at sollicitudin
+                      ex
+                      scelerisque ut. Maecenas volutpat placerat semper. Fusce a ligula pretium, faucibus ligula vitae,
+                      malesuada eros. Maecenas lacinia vel purus ut pellentesque. Orci varius natoque penatibus et
+                      magnis
+                      dis parturient montes, nascetur ridiculus mus. Mauris aliquam accumsan augue, ac iaculis turpis
+                      efficitur quis. Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel
+                      mollis dolor elit eu nibh. Proin consequat consectetur eros ut molestie. Cras eu elit velit.
+                      Integer
+                      euismod posuere orci, non efficitur nibh efficitur eu. Fusce et tortor neque. Sed blandit
+                      ultricies
+                      fringilla.</p>
+
+                    <!-- Credits -->
+                    <div>
+                      <p class="modal-subtext">All songs written, arranged, and performed by Esbern Snare</p>
+                      <p class="modal-subtext">Artwork design by Luke Jones</p>
+                      <p class="modal-subtext">Recorded by Micah Lindstrom at Morgan Horse Studios</p>
+                      <p class="modal-subtext">Mixed by Ben Mekkes at <a target="_blank"
+                          href="http://www.ownitmusic.productions/">OWNIT Music</a></p>
+                      <p class="modal-subtext">Mastered by Adam Boose at Cauliflower Audio</p>
+                    </div>
+
+                    <hr>
+
+                    <!-- Album Play -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="doesItFeelPlay"
+                      aria-labelledby="doesItFeelPlay">
+                      <div class="offcanvas-header">
+                        <h5 id="offcanvasPlayLabel">does it feel like i'm not there?</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                          aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <p>...awaiting ablum release</p>
+                      </div>
+                    </div>
+
+                    <!-- Album Lyrics -->
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="doesItFeelLyrics"
+                      aria-labelledby="doesItFeelLyrics">
+                      <div class="offcanvas-header">
+                        <h5 id="offcanvasLyricsLabel">does it feel like i'm not there?</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                          aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        ...
+                      </div>
+                    </div>
                   </div>
                 </div>
-
-                <!-- Col 3 -->
-                <div class="col-lg-6 col-sm-12">
-                  <p>...</p>
-                </div>
-
-                <!-- Col 4 -->
-                <div class="col-lg-6 col-sm-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
-                    hendrerit nec.
-                    Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim lobortis nunc, vitae
-                    hendrerit arcu venenatis non.
-                    Integer ut sagittis purus. Aliquam aliquam tortor diam. Nulla facilisi. Donec cursus hendrerit
-                    interdum.
-                    Praesent iaculis imperdiet ante, at sollicitudin ex scelerisque ut. Maecenas volutpat placerat
-                    semper.
-                    Fusce a ligula pretium, faucibus ligula vitae, malesuada eros. Maecenas lacinia vel purus ut
-                    pellentesque.
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                    Mauris aliquam accumsan augue, ac iaculis turpis efficitur quis.
-                    Vivamus feugiat, justo vel volutpat maximus, augue libero pellentesque sapien, vel mollis dolor elit
-                    eu nibh.
-                    Proin consequat consectetur eros ut molestie. Cras eu elit velit. Integer euismod posuere orci, non
-                    efficitur nibh efficitur eu.
-                    Fusce et tortor neque. Sed blandit ultricies fringilla.</p>
-                </div>
               </div>
-
             </div>
           </div>
 
@@ -565,7 +612,6 @@
           </div>
         </div>
       </div>
-    </div>
 
   </section>
 

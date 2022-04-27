@@ -37,6 +37,10 @@ body {
 	padding: 0;
 }
 
+ol {
+	color: #eaedef;
+}
+
 a {
 	text-decoration: none;
 	color: #eaedef;
@@ -63,6 +67,10 @@ hr {
 	width: 2rem;
 	size: 1px;
 	color: #eaedef;
+	margin: 2rem 0;
+}
+
+#about hr {
 	margin: 3rem auto;
 }
 
@@ -110,7 +118,7 @@ label {
 	animation: fadeIn 30s ease, color-change 30s ease, glow 10s linear infinite;
 }
 
-/* Modal */
+/* Modals */
 
 .modal-header {
 	border: 0;
@@ -178,13 +186,23 @@ h6 {
 }
 
 .modal-content iframe {
-	height: 75%;
+	height: 50%;
 	width: 100%;
 }
 
 .modal-subtext {
 	color: #506582;
 	font-size: small;
+}
+
+.offcanvas-end {
+	background-color: #161014;
+	border-left: solid #eaedef 1px;
+}
+
+.offcanvas-bottom {
+	background-color: #161014;
+	border-top: solid #eaedef 1px;
 }
 
 /* About Modal */
@@ -201,6 +219,12 @@ h6 {
 #about img:hover {
 	animation: fadeIn 1s ease;
 }
+
+ /* Discography Modal */
+
+ .album-button {
+	 margin: 1rem 0 0;
+ }
 
 /* Social Section */
 
