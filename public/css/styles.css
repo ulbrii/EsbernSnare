@@ -6,7 +6,7 @@ h1 {
 	letter-spacing: .7rem;
 	font-family: Josefin Sans, sans-serif;
 	text-align: center;
-	animation: fadeIn 10s ease, color-change 10s ease,glow 10s linear infinite, growth 8s ease;
+	animation: fadeIn 10s ease, color-change 10s ease, glow 10s linear infinite, growth 8s ease;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -133,6 +133,7 @@ label {
 .btn-close {
 	position: absolute;
 	right: 2rem;
+	z-index: 2;
 }
 
 .modal-body {
@@ -220,11 +221,38 @@ h6 {
 	animation: fadeIn 1s ease;
 }
 
- /* Discography Modal */
+/* Photos Modal */
 
- .album-button {
-	 margin: 1rem 0 0;
- }
+.carousel {
+	height: 100%;
+}
+
+.carousel-caption {
+	background-color: #161014;
+	opacity: .9;
+	width: 50rem;
+	margin: 0 auto;
+}
+
+.carousel-inner {
+	height: 100%;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.carousel-item {
+	height: 100%;
+}
+
+#photos .modal-content {
+	opacity: 1.1;
+}
+
+/* Discography Modal */
+
+.album-button {
+	margin: 1rem 0 0;
+}
 
 /* Social Section */
 
@@ -233,7 +261,8 @@ h6 {
 	position: relative;
 }
 
-.social-box, .modal-social {
+.social-box,
+.modal-social {
 	text-align: center;
 }
 
