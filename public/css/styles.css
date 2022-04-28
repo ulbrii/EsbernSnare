@@ -27,7 +27,7 @@ p {
 
 body {
 	font-family: Josefin Sans, sans-serif;
-	background-image: url("/public/images/aviolentpeace-webpage.jpg");
+	background-image: url("../images/aviolentpeace-webpage.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
