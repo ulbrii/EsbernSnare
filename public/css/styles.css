@@ -230,8 +230,8 @@ h6 {
 .carousel-caption {
 	background-color: #161014;
 	opacity: .9;
-	width: 50rem;
-	margin: 0 auto;
+	width: 40%;
+	margin: 1rem auto
 }
 
 .carousel-inner {
