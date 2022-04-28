@@ -254,6 +254,10 @@ h6 {
 	margin: 1rem 0 0;
 }
 
+.offcanvas-bottom {
+	height: 50%;
+}
+
 /* Social Section */
 
 .social-section {
