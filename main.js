@@ -26,10 +26,10 @@ const bandMembers = [
 for (let member of bandMembers) {
 	let memberPhoto = document.querySelector(`#${member.id}`);
 	memberPhoto.addEventListener('mouseover', () =>
-		memberPhoto.setAttribute('src', `/public/images/${member.name}-action-rounded.png`)
+		memberPhoto.setAttribute('src', `public/images/${member.name}-action-rounded.png`)
 	);
 	memberPhoto.addEventListener('mouseout', () =>
-		memberPhoto.setAttribute('src', `/public/images/${member.name}-rounded.png`)
+		memberPhoto.setAttribute('src', `public/images/${member.name}-rounded.png`)
 	);
 }
 
