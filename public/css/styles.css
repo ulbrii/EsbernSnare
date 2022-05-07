@@ -35,6 +35,7 @@ body {
 	height: 100vh;
 	width: 100vw;
 	padding: 0;
+	overflow: hidden;
 }
 
 ol {
@@ -231,7 +232,7 @@ h6 {
 	background-color: #161014;
 	opacity: .9;
 	width: 40%;
-	margin: 1rem auto
+	margin: 1rem auto;
 }
 
 .carousel-inner {
@@ -254,8 +255,72 @@ h6 {
 	margin: 1rem 0 0;
 }
 
+.album-button i {
+	animation: none;
+	transform: none;
+	transition: none;
+}
+
+#aViolentPeacePlay {
+	background-color: #506582;
+}
+
+#aViolentPeaceLyrics {
+	background-color: #506582;
+}
+
+#joysOfKinEpPlay {
+	background-color: #2c3b32;
+}
+
+#joysOfKinEpLyrics {
+	background-color: #2c3b32;
+}
+
+#doesItFeelPlay {
+	background-image: linear-gradient(#a6493b, #b95a54);
+}
+
+#doesItFeelLyrics {
+	background-image: linear-gradient(#a6493b, #b95a54);
+}
+
 .offcanvas-bottom {
 	height: 50%;
+}
+
+.lyric-button {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	width: 75%;
+	text-align: left;
+}
+
+.lyric-button-sm {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.active-lyric-button {
+	background-color: #eaedef;
+	color: #161014;
+}
+
+.tracklist-container {
+	border: 1px solid #eaedef;
+}
+
+.lyrics-box-active {
+	border-top: 1px solid #eaedef;
+	border-bottom: 1px solid #eaedef;
+}
+
+.card-body {
+	background-color: inherit;
+	border-left: 1px solid #eaedef;
+	border-right: 1px solid #eaedef;
+	border-top: none;
+	border-bottom: none;
 }
 
 /* Social Section */

@@ -24,20 +24,15 @@ const bandMembers = [
 
 // Adding photo change on 'hover' effect via event listener to all band member photos
 for (let member of bandMembers) {
-	let memberPhoto = document.querySelector(`#${member.id}`);
-	memberPhoto.addEventListener('mouseover', () =>
-		memberPhoto.setAttribute('src', `public/images/${member.name}-action-rounded.png`)
-	);
-	memberPhoto.addEventListener('mouseout', () =>
-		memberPhoto.setAttribute('src', `public/images/${member.name}-rounded.png`)
-	);
+	let memberPhoto = $(`#${member.id}`);
+	memberPhoto.on('mouseover', () => memberPhoto.attr('src', `public/images/${member.name}-action-rounded.png`));
+	memberPhoto.on('mouseout', () => memberPhoto.attr('src', `public/images/${member.name}-rounded.png`));
 }
 
-
 // Adding social footer to all modals.
-const modalFooter = document.querySelectorAll('.modal-footer');
+const modalFooter = $('.modal-footer');
 
-for(let footer of modalFooter) {
+for (let footer of modalFooter) {
 	const modalSocial = document.createElement('section');
 	modalSocial.classList.add('modal-social', 'me-auto');
 	modalSocial.innerHTML = `
@@ -62,9 +57,12 @@ for(let footer of modalFooter) {
 	footer.insertAdjacentElement('afterbegin', modalSocial);
 }
 
-const express = require('express');
-const app = express();
+$('.lyric-button').on('click', function() {
+	$(this).toggleClass('active-lyric-button');
+	$('.lyrics-box').toggleClass('lyrics-box-active', true);
+});
 
-app.get('/', (req, res) => {
-	res.sendFile('index.html');
+$('.lyric-button-sm').on('click', function() {
+	$(this).toggleClass('active-lyric-button');
+	$('.lyrics-box').toggleClass('lyrics-box-active', true);
 });
