@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ulbrii.github.io/EsbernSnare/",
-  "name": "esbern-react-app",
+  "homepage": "https://ulbrii.github.io/EsbernSnare",
+  "name": "esbernsnare-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
