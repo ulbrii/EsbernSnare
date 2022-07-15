@@ -49,7 +49,7 @@ function Discog() {
 			<AlbumCard
 				title="Joys of Kin | EP"
 				image={joysOfKin}
-				playLink="Coming soon!"
+				playLink="https://esbernsnare.bandcamp.com/album/joys-of-kin-ep"
 				playSrc="https://bandcamp.com/EmbeddedPlayer/album=1207544751/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
 				lyricsId="joysOfKinEpLyrics"
 				lyrics={<JoysOfKinEpLyrics />}
