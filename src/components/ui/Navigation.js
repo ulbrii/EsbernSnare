@@ -33,10 +33,15 @@ function Navigation() {
 
 	return (
 		<section className="navbar-section">
-			<Container variant="fluid">
+			<Container fluid>
 				<Navbar variant="dark p-md-3" expand="lg" fixed="bottom">
-					<Navbar.Brand variant="img-fluid d-none d-lg-block">
-						<img className="img-fluid" src={esbernsnarelogo} alt="esbernsnare-logo" href="/" />
+					<Navbar.Brand className="d-none d-lg-block">
+						<img
+							className="img-fluid d-none d-lg-block"
+							src={esbernsnarelogo}
+							alt="esbernsnare-logo"
+							href="/"
+						/>
 					</Navbar.Brand>
 
 					<Navbar.Toggle
@@ -51,16 +56,16 @@ function Navigation() {
 							<Nav.Link href="/" className="link">
 								Home
 							</Nav.Link>
-							<Nav.Link name="about" onClick={handleShowAbout} className="link">
+							<Nav.Link name="about" onClick={handleShowAbout} className="link mb-2">
 								About
 							</Nav.Link>
-							<Nav.Link name="photos" onClick={handleShowPhotos} className="link">
+							<Nav.Link name="photos" onClick={handleShowPhotos} className="link mb-2">
 								Photos
 							</Nav.Link>
-							<Nav.Link name="discog" onClick={handleShowDiscog} className="link">
+							<Nav.Link name="discog" onClick={handleShowDiscog} className="link mb-2">
 								Discography
 							</Nav.Link>
-							<Nav.Link name="contact" onClick={handleShowContact} className="link">
+							<Nav.Link name="contact" onClick={handleShowContact} className="link mb-2">
 								Contact
 							</Nav.Link>
 						</Nav>
