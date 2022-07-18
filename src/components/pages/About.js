@@ -11,20 +11,20 @@ import ericdryfka from '../../images/ericdryfka-rounded.png';
 import ericdryfka2 from '../../images/ericdryfka-action-rounded.png';
 // ********** Band member images **********
 
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
 	return (
-		<Container id="about" variant="fluid">
+		<Container id="about" fluid>
 			{/* Row 1 */}
 			<Row className="justify-content-center">
 				{/* Col Header */}
-				<div className="about-header col-12 text-center">
+				<Col className="about-header text-center" sm={12}>
 					<h2>Members</h2>
-				</div>
+				</Col>
 
 				{/* Col 1 */}
-				<div className="col-lg-2 col-md-4 col-sm-12 text-center">
+				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="ljon"
 						className="img-fluid"
@@ -35,10 +35,10 @@ function About() {
 					/>
 					<h3>Luke Jones</h3>
 					<p>vocals, keys</p>
-				</div>
+				</Col>
 
 				{/* Col 2 */}
-				<div className="col-lg-2 col-md-4 col-sm-12 text-center">
+				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="ajon"
 						className="img-fluid"
@@ -49,10 +49,10 @@ function About() {
 					/>
 					<h3>Adam Jones</h3>
 					<p>keys, synths</p>
-				</div>
+				</Col>
 
 				{/* Col 3 */}
-				<div className="col-lg-2 col-md-4 col-sm-12 text-center">
+				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="jbrock"
 						className="img-fluid"
@@ -63,10 +63,10 @@ function About() {
 					/>
 					<h3>Joseph Brockman</h3>
 					<p>guitar</p>
-				</div>
+				</Col>
 
 				{/* Col 4 */}
-				<div className="col-lg-2 col-md-4 col-sm-12 text-center">
+				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="jcrum"
 						className="img-fluid"
@@ -77,10 +77,10 @@ function About() {
 					/>
 					<h3>Josiah Crumrine</h3>
 					<p>bass, backing vocals</p>
-				</div>
+				</Col>
 
 				{/* Col 5 */}
-				<div className="col-lg-2 col-md-4 col-sm-12 text-center">
+				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="edryf"
 						className="img-fluid"
@@ -91,20 +91,20 @@ function About() {
 					/>
 					<h3>Eric Dryfka</h3>
 					<p>drums</p>
-				</div>
+				</Col>
 			</Row>
 
 			{/* Row 2 */}
 
 			<Row className="justify-content-center">
 				{/* ********** Biography Header ********** */}
-				<div className="about-header col-12 text-center">
+				<Col className="about-header text-center" sm={12}>
 					<h2>Bio</h2>
 					<hr />
-				</div>
+				</Col>
 
 				{/* ********** Biography ********** */}
-				<div className="col-lg-10 col-md-6 col-sm-12 text-center">
+				<Col className="text-center" lg={6} sm={12}>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis sem sapien, non posuere nibh
 						hendrerit nec. Donec ex mauris, bibendum eu tortor a, ornare egestas nibh. Nunc dignissim
@@ -147,7 +147,7 @@ function About() {
 						ut fringilla odio, sed consectetur turpis. Vivamus vitae feugiat tortor. Etiam neque lectus,
 						lacinia vel neque non, rhoncus malesuada nisi. Pellentesque porta lobortis ipsum.
 					</p>
-				</div>
+				</Col>
 			</Row>
 		</Container>
 	);
