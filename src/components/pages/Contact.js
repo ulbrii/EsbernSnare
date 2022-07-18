@@ -31,12 +31,12 @@ function Contact() {
 
 			<Row className="justify-content-center">
 				{/* Grid column */}
-				<Col className="col-md-9 mb-md-0 mb-5">
+				<Col className="mb-md-0 mb-5" md={9}>
 					<Form ref={form} name="contact-form" onSubmit={sendEmail}>
 						{/* Grid row */}
 						<Row>
 							{/* Grid column */}
-							<Col className="col-md-6">
+							<Col md={6}>
 								<div className="md-form mb-0">
 									<input type="text" name="user_name" className="form-control" />
 									<label for="name" className="">
@@ -47,7 +47,7 @@ function Contact() {
 							{/* Grid column */}
 
 							{/* Grid column */}
-							<Col className="col-md-6">
+							<Col md={6}>
 								<div className="md-form mb-0">
 									<input type="text" name="user_email" className="form-control" />
 									<label for="email" className="">
@@ -61,7 +61,7 @@ function Contact() {
 
 						{/* Grid row */}
 						<Row>
-							<Col className="col-md-12">
+							<Col md={12}>
 								<div className="md-form mb-0">
 									<input type="text" name="user_subject" className="form-control" />
 									<label for="subject" className="">
@@ -75,7 +75,7 @@ function Contact() {
 						{/* Grid row */}
 						<Row>
 							{/* Grid colum */}
-							<Col className="col-md-12">
+							<Col md={12}>
 								<div className="md-form">
 									<textarea
 										type="text"
