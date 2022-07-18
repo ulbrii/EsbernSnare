@@ -19,6 +19,7 @@ function AlbumOpenOffcanvas(props) {
 			<Offcanvas.Body>
 				<Row className="justify-content-center">
 					<img src={props.image} className="offcanvas-album-image" alt="aViolentPeaceImage" />
+					<p className="offcanvas-album-release-date text-center">{props.release}</p>
 				</Row>
 				<Row className="justify-content-center">
 					<Col align="center" xl={5} lg={12}>

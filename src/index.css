@@ -318,6 +318,12 @@ h6 {
 
 .offcanvas-album-image {
 	width: 35%;
+	margin-bottom: 1rem;
+}
+
+.offcanvas-album-release-date {
+	color: #eaedef;
+	opacity: .7;
 }
 
 .offcanvas-body {

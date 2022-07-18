@@ -54,6 +54,7 @@ function AlbumCard(props) {
 				title={props.title}
 				image={props.image}
 				lyrics={props.lyrics}
+				release={props.release}
 				description={props.description}
 				src={props.playSrc}
 				show={showLyricsCard}
