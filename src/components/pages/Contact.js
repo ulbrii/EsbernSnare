@@ -1,9 +1,12 @@
-import React, { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Row, Col, Form, Button } from 'react-bootstrap';
+import EmailSuccess from '../ui/EmailSuccess';
 
 function Contact() {
 	const form = useRef();
+
+	const [ show, setShow ] = useState(false);
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -13,6 +16,7 @@ function Contact() {
 				console.log(result.text);
 				console.log('Message Sent!');
 				e.target.reset();
+				setShow(true);
 			},
 			(error) => {
 				console.log(error.text);
@@ -92,6 +96,8 @@ function Contact() {
 					</Form>
 				</Col>
 			</Row>
+			{/* Email success toast message */}
+			<EmailSuccess onClose={() => setShow(false)} show={show} />
 		</section>
 	);
 }
