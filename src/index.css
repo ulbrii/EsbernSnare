@@ -23,6 +23,7 @@ h6 {
 
 p {
 	color: #eaedef;
+	margin: 0;
 }
 
 body {
@@ -245,11 +246,6 @@ h6 {
 	padding: .4rem 0;
 }
 
-.modal-content p {
-	padding: 0;
-	margin: 0;
-}
-
 .modal-content h6 {
 	color: #506582;
 }
@@ -268,10 +264,6 @@ h6 {
 	border: none;
 	text-align: center;
 	margin: 0;
-}
-
-.modal-content > p {
-	padding: 1rem;
 }
 
 .modal-content iframe {
@@ -341,9 +333,6 @@ h6 {
 
 .offcanvas-bottom {
 	background-color: #161014;
-}
-
-.offcanvas-bottom {
 	height: 100%;
 }
 
