@@ -30,12 +30,11 @@ function Contact() {
 			</p>
 
 			<Row className="justify-content-center">
-				{/* Grid column */}
 				<Col className="mb-md-0 mb-5" md={9}>
+					{/* Contact Form */}
 					<Form ref={form} name="contact-form" onSubmit={sendEmail}>
-						{/* Grid row */}
 						<Row>
-							{/* Grid column */}
+							{/* Name */}
 							<Col md={6}>
 								<div className="md-form mb-0">
 									<input type="text" name="user_name" className="form-control" />
@@ -44,9 +43,8 @@ function Contact() {
 									</label>
 								</div>
 							</Col>
-							{/* Grid column */}
 
-							{/* Grid column */}
+							{/* Email */}
 							<Col md={6}>
 								<div className="md-form mb-0">
 									<input type="text" name="user_email" className="form-control" />
@@ -55,11 +53,9 @@ function Contact() {
 									</label>
 								</div>
 							</Col>
-							{/* Grid column */}
 						</Row>
-						{/* Grid row */}
 
-						{/* Grid row */}
+						{/* Subject */}
 						<Row>
 							<Col md={12}>
 								<div className="md-form mb-0">
@@ -70,11 +66,9 @@ function Contact() {
 								</div>
 							</Col>
 						</Row>
-						{/* Grid row */}
 
-						{/* Grid row */}
+						{/* Message */}
 						<Row>
-							{/* Grid colum */}
 							<Col md={12}>
 								<div className="md-form">
 									<textarea
@@ -87,7 +81,8 @@ function Contact() {
 								</div>
 							</Col>
 						</Row>
-						{/* Grid row */}
+
+						{/* Send */}
 						<div className="text-center text-md-left">
 							<Button variant="outline-light" type="submit" value="Send">
 								Send Message
@@ -96,7 +91,6 @@ function Contact() {
 						<div className="status" />
 					</Form>
 				</Col>
-				{/* Grid column */}
 			</Row>
 		</section>
 	);

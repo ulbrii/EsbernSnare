@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 import AlbumOpenOffcanvas from './AlbumOpenOffcanvas';
 
+// This component is nested within + obtaining props from the Discog component.
 function AlbumCard(props) {
 	const [ showLyricsCard, setShowLyricsCard ] = useState(false);
 	function toggleShowLyricsCard() {

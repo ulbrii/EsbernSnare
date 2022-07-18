@@ -1,5 +1,6 @@
 import { Card, Row, Col } from 'react-bootstrap';
 
+// Exporting all contents to AlbumOpenOffcanvas
 function JoysOfKinEpLyrics() {
 	return (
 		<div>

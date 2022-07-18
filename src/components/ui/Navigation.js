@@ -1,14 +1,15 @@
-import esbernsnarelogo from '../images/esbernsnare-logo-sm.png';
+import esbernsnarelogo from '../../images/esbernsnare-logo-sm.png';
 
-import ModalConstruct from './ui/ModalConstruct';
-import About from '../components/pages/About';
-import Photos from '../components/pages/Photos';
-import Discog from '../components/pages/Discog';
-import Contact from '../components/pages/Contact';
+import ModalConstruct from './ModalConstruct';
+import About from '../pages/About';
+import Photos from '../pages/Photos';
+import Discog from '../pages/Discog';
+import Contact from '../pages/Contact';
 
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { useState } from 'react';
 
+// Exported to Homepage component
 function Navigation() {
 	// About - {state and handling}
 	const [ showAbout, setShowAbout ] = useState(false);

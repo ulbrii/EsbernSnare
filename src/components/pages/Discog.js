@@ -1,3 +1,5 @@
+import { Container } from 'react-bootstrap';
+
 // Image imports
 import aViolentPeace from '../../images/aviolentpeace.jpg';
 import joysOfKin from '../../images/joysofkin.jpg';
@@ -8,9 +10,11 @@ import AViolentPeaceLyrics from '../lyrics/AViolentPeaceLyrics';
 import JoysOfKinEpLyrics from '../lyrics/JoysOfKinEpLyrics';
 import DoesItFeelLyrics from '../lyrics/DoesItFeelLyrics';
 
+// Component containing all necessary album information for each respective album.  When adding or changing info regarding an album,
+// this component should be the sole source of those changes.
 function Discog() {
 	return (
-		<div className="container-fluid">
+		<Container fluid>
 			{/* ********** A Violent Peace ********** */}
 			<AlbumCard
 				title="A Violent Peace"
@@ -111,7 +115,7 @@ function Discog() {
 					</div>
 				}
 			/>
-		</div>
+		</Container>
 	);
 }
 
