@@ -38,6 +38,12 @@ function AlbumOpenOffcanvas(props) {
 						<Card>
 							<p align="left">{props.description}</p>
 						</Card>
+						{/* ********** Bio ********** */}
+						<h3 className="offcanvas-h3" align="center">
+							Credits
+						</h3>
+						<i className="offcanvas-icon fa-solid fa-leaf" />
+						<section align="center">{props.credits}</section>
 					</Col>
 
 					{/* ********** Lyrics ********** */}

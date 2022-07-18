@@ -1,4 +1,4 @@
-import { Button, Row } from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
 import { useState } from 'react';
 
 import AlbumOpenOffcanvas from './AlbumOpenOffcanvas';
@@ -15,14 +15,14 @@ function AlbumCard(props) {
 	}
 
 	return (
-		<Row>
+		<Row className="album-row">
 			{/* Album Cover */}
-			<div className="col-lg-5 col-md-12">
+			<Col lg={5} md={12}>
 				<img className="img-fluid mx-auto" src={props.image} alt="aviolentpeace" />
-			</div>
+			</Col>
 
 			{/* Album Info */}
-			<div className="col-lg-5 col-md-12 position-relative">
+			<Col className="position-relative" lg={5} md={12}>
 				<h3>{props.title}</h3>
 				<h6>{props.release}</h6>
 
@@ -48,8 +48,7 @@ function AlbumCard(props) {
 
 				{/* Credits */}
 				<section>{props.credits}</section>
-			</div>
-			<hr />
+			</Col>
 			<AlbumOpenOffcanvas
 				lyricsId={props.lyricsId}
 				title={props.title}
@@ -57,6 +56,7 @@ function AlbumCard(props) {
 				lyrics={props.lyrics}
 				release={props.release}
 				description={props.description}
+				credits={props.credits}
 				src={props.playSrc}
 				show={showLyricsCard}
 				close={handleCloseLyricsCard}
