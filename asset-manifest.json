@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EsbernSnare/static/css/main.4baf8a79.css",
-    "main.js": "/EsbernSnare/static/js/main.9c4ca458.js",
+    "main.css": "/EsbernSnare/static/css/main.ee736319.css",
+    "main.js": "/EsbernSnare/static/js/main.6b8b1f9b.js",
     "static/media/band13.jpg": "/EsbernSnare/static/media/band13.2ad6e1cccfa6c3bf0e6a.jpg",
     "static/media/band5.jpg": "/EsbernSnare/static/media/band5.bb624f440b3c53851c92.jpg",
     "static/media/band12.jpg": "/EsbernSnare/static/media/band12.9f6dca542941eb6c9e05.jpg",
@@ -26,11 +26,11 @@
     "static/media/josiahcrumrine-rounded.png": "/EsbernSnare/static/media/josiahcrumrine-rounded.e6727c70b4efb2bb4a16.png",
     "static/media/lukejones-rounded.png": "/EsbernSnare/static/media/lukejones-rounded.3bfa42cd09c02ce769ea.png",
     "index.html": "/EsbernSnare/index.html",
-    "main.4baf8a79.css.map": "/EsbernSnare/static/css/main.4baf8a79.css.map",
-    "main.9c4ca458.js.map": "/EsbernSnare/static/js/main.9c4ca458.js.map"
+    "main.ee736319.css.map": "/EsbernSnare/static/css/main.ee736319.css.map",
+    "main.6b8b1f9b.js.map": "/EsbernSnare/static/js/main.6b8b1f9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4baf8a79.css",
-    "static/js/main.9c4ca458.js"
+    "static/css/main.ee736319.css",
+    "static/js/main.6b8b1f9b.js"
   ]
 }
