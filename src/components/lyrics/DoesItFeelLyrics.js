@@ -282,7 +282,7 @@ function DoesItFeelLyrics() {
 						<p>where you draw out your shapes as you pass through your day</p>
 						<p>It's simple it seems</p>
 						<p>And the world may never be</p>
-						<p>Yet there's some found release in the floating debris</p>
+						<p>But there's some found release in the floating debris</p>
 						<p>Don't settle for all you've felt if you've never felt like yourself,</p>
 						<p>because I lost that way</p>
 					</Col>
