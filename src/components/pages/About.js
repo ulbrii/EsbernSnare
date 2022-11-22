@@ -9,6 +9,7 @@ import josiahcrumrine from '../../images/josiahcrumrine-rounded.png';
 import josiahcrumrine2 from '../../images/josiahcrumrine-action-rounded.png';
 import ericdryfka from '../../images/ericdryfka-rounded.png';
 import ericdryfka2 from '../../images/ericdryfka-action-rounded.png';
+import fullband1 from '../../images/fullband1.jpg';
 // ********** Band member images **********
 
 import { Container, Row, Col } from 'react-bootstrap';
@@ -27,7 +28,7 @@ function About() {
 				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="ljon"
-						className="img-fluid"
+						className="img-fluid member-photo"
 						src={lukejones}
 						alt="lukejones"
 						onMouseOver={(e) => (e.currentTarget.src = lukejones2)}
@@ -41,7 +42,7 @@ function About() {
 				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="ajon"
-						className="img-fluid"
+						className="img-fluid member-photo"
 						src={adamjones}
 						alt="adamjones"
 						onMouseOver={(e) => (e.currentTarget.src = adamjones2)}
@@ -55,7 +56,7 @@ function About() {
 				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="jbrock"
-						className="img-fluid"
+						className="img-fluid member-photo"
 						src={josephbrockman}
 						alt="josephbrockman"
 						onMouseOver={(e) => (e.currentTarget.src = josephbrockman2)}
@@ -69,7 +70,7 @@ function About() {
 				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="jcrum"
-						className="img-fluid"
+						className="img-fluid member-photo"
 						src={josiahcrumrine}
 						alt="josiahcrumrine"
 						onMouseOver={(e) => (e.currentTarget.src = josiahcrumrine2)}
@@ -83,7 +84,7 @@ function About() {
 				<Col className="text-center about-photo-box" lg={2} md={4} sm={12}>
 					<img
 						id="edryf"
-						className="img-fluid"
+						className="img-fluid member-photo"
 						src={ericdryfka}
 						alt="ericdryfka"
 						onMouseOver={(e) => (e.currentTarget.src = ericdryfka2)}
@@ -125,6 +126,7 @@ function About() {
 						non mauris mi. In quis molestie velit, et pulvinar nunc. Mauris ullamcorper orci leo, sit amet
 						dapibus ligula feugiat non.
 					</p>
+					<img src={fullband1} className='w-75'></img>
 					<br />
 					<p>
 						Mauris nec velit dignissim, fringilla dui vel, viverra tellus. Integer dignissim in ipsum vitae

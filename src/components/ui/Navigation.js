@@ -2,7 +2,7 @@ import esbernsnarelogo from '../../images/esbernsnare-logo-sm.png';
 
 import ModalConstruct from './ModalConstruct';
 import About from '../pages/About';
-import Photos from '../pages/Photos';
+import Media from '../pages/Media';
 import Discog from '../pages/Discog';
 import Contact from '../pages/Contact';
 
@@ -37,30 +37,21 @@ function Navigation() {
 				<Navbar variant="dark p-md-3" expand="lg" fixed="bottom">
 					<Navbar.Brand className="d-none d-lg-block">
 						<img
-							className="img-fluid d-none d-lg-block"
+							className="img-fluid"
 							src={esbernsnarelogo}
 							alt="esbernsnare-logo"
-							href="/"
+							href="/Home"
 						/>
 					</Navbar.Brand>
-
-					<Navbar.Toggle
-						className="mt-4 mb-5 m-auto ms-lg-auto"
-						data-bs-toggle="collapse"
-						aria-controls="navbarNav"
-						aria-expanded="false"
-						aria-label="Toggle Navbar"
-					/>
-					<Navbar.Collapse className="text-center" id="navbarNav">
-						<Nav className="text-center ms-auto">
-							<Nav.Link href="/" className="link">
+						<Nav className="text-center mx-auto">
+							<Nav.Link href="/Home" className="link">
 								Home
 							</Nav.Link>
 							<Nav.Link name="about" onClick={handleShowAbout} className="link mb-2">
 								About
 							</Nav.Link>
-							<Nav.Link name="photos" onClick={handleShowPhotos} className="link mb-2">
-								Photos
+							<Nav.Link name="media" onClick={handleShowPhotos} className="link mb-2">
+								Media
 							</Nav.Link>
 							<Nav.Link name="discog" onClick={handleShowDiscog} className="link mb-2">
 								Discography
@@ -69,17 +60,16 @@ function Navigation() {
 								Contact
 							</Nav.Link>
 						</Nav>
-					</Navbar.Collapse>
 				</Navbar>
 
 				{/* ---------- About Page ---------- */}
-				<ModalConstruct id="aboutModal" show={showAbout} close={handleCloseAbout} title="Who We Are">
+				<ModalConstruct id="aboutModal" show={showAbout} close={handleCloseAbout} title="The Band">
 					<About />
 				</ModalConstruct>
 
 				{/* ---------- Photos Page ---------- */}
-				<ModalConstruct id="photosModal" show={showPhotos} close={handleClosePhotos} title="Photos">
-					<Photos />
+				<ModalConstruct id="mediaModal" show={showPhotos} close={handleClosePhotos} title="Media">
+					<Media />
 				</ModalConstruct>
 
 				{/* ---------- Discography Page ---------- */}
