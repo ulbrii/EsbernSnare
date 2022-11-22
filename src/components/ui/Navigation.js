@@ -40,7 +40,7 @@ function Navigation() {
 							className="img-fluid"
 							src={esbernsnarelogo}
 							alt="esbernsnare-logo"
-							href="/Home"
+							href="/EsbernSnare"
 						/>
 					</Navbar.Brand>
 						<Nav className="text-center mx-auto">
