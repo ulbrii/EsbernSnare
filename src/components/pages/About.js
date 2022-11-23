@@ -35,7 +35,7 @@ function About() {
 						onMouseOut={(e) => (e.currentTarget.src = lukejones)}
 					/>
 					<h3>Luke Jones</h3>
-					<p>vocals, keys</p>
+					<p className='about-instrument'>vocals, keys</p>
 				</Col>
 
 				{/* Col 2 */}
@@ -49,7 +49,7 @@ function About() {
 						onMouseOut={(e) => (e.currentTarget.src = adamjones)}
 					/>
 					<h3>Adam Jones</h3>
-					<p>keys, synths</p>
+					<p className='about-instrument'>keys, synths</p>
 				</Col>
 
 				{/* Col 3 */}
@@ -63,7 +63,7 @@ function About() {
 						onMouseOut={(e) => (e.currentTarget.src = josephbrockman)}
 					/>
 					<h3>Joseph Brockman</h3>
-					<p>guitar</p>
+					<p className='about-instrument'>guitar</p>
 				</Col>
 
 				{/* Col 4 */}
@@ -77,7 +77,7 @@ function About() {
 						onMouseOut={(e) => (e.currentTarget.src = josiahcrumrine)}
 					/>
 					<h3>Josiah Crumrine</h3>
-					<p>bass, backing vocals</p>
+					<p className='about-instrument'>bass, backing vocals</p>
 				</Col>
 
 				{/* Col 5 */}
@@ -91,7 +91,7 @@ function About() {
 						onMouseOut={(e) => (e.currentTarget.src = ericdryfka)}
 					/>
 					<h3>Eric Dryfka</h3>
-					<p>drums</p>
+					<p className='about-instrument'>drums</p>
 				</Col>
 			</Row>
 
@@ -126,7 +126,7 @@ function About() {
 						non mauris mi. In quis molestie velit, et pulvinar nunc. Mauris ullamcorper orci leo, sit amet
 						dapibus ligula feugiat non.
 					</p>
-					<img src={fullband1} className='w-75'></img>
+					<img src={fullband1} alt='fullband1' className='w-75'></img>
 					<br />
 					<p>
 						Mauris nec velit dignissim, fringilla dui vel, viverra tellus. Integer dignissim in ipsum vitae

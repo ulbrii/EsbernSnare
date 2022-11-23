@@ -26,7 +26,7 @@ function Discog() {
         release="released March 28th, 2014"
         description="After forming as a six-piece in the fall of 2012, 'A Violent Peace' was the band's first attempt at a studio album. At its core, it is an album on homesickness, and of growing up far from a place that forever marked your childhood.  For a mind eager to embrace the warmth of the past, it is a slow, lingering homage to the memory of youth.  Amid life's demands to move forward, it is a desperate attempt to keep ones head lifted above the often suffocating weight of change."
         credits={
-          <div>
+          <div className='ps-0'>
             <p className="modal-subtext">
               All songs written, arranged, and performed by Esbern Snare
             </p>
@@ -62,7 +62,7 @@ function Discog() {
         release="released April 25, 2016"
         description="With their first album 'A Violent Peace' in the rearview mirror, an interim period of change for the band had begun.  Both original drummer Eric Dryfka and guitarist Andrew Montgomery had decided it was time to leave the band and move with their families to new cities for academic and career pursuits.  Esbern Snare performed sparingly after these departures, and it was during this unofficial hiatus that writing for a new album began to take shape with brothers Adam and Luke Jones.  They approached producer and long time friend Jake Hull to begin work solidifying new material into some recorded form. He then sat down with Luke Jones to capture a one night live demo session of four new, original songs which would become the Joys of Kin EP, thus providing the earliest bedrock for what would become the band's sophomore album, 'does it feel like i'm not there?'"
         credits={
-          <div>
+          <div className='ps-0'>
             <p class="modal-subtext">Artwork design by Alec Mangum</p>
             <p class="modal-subtext">Recordings captured live by Jake Hull</p>
             <p class="modal-subtext">Mixing and mastering by Jake Hull</p>
@@ -91,7 +91,7 @@ function Discog() {
 					euismod posuere orci, non efficitur nibh efficitur eu. Fusce et tortor neque. Sed blandit ultricies
 					fringilla."
         credits={
-          <div>
+          <div className='ps-0'>
             <p class="modal-subtext">
               All songs written, arranged, and performed by Esbern Snare
             </p>

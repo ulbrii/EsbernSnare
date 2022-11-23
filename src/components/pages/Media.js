@@ -89,63 +89,63 @@ function Media() {
       <h2 className="my-4">Photos</h2>
       <Row className="justify-content-center">
         <Col lg={4}>
-          <img className="w-100" src={tableshot1}></img>
+          <img className="w-100" alt='tableshot1' src={tableshot1}></img>
         </Col>
         <Col lg={4}>
-          <img className="w-100" src={tableshot2}></img>
+          <img className="w-100" alt='tableshot2' src={tableshot2}></img>
         </Col>
         <Col lg={4}>
-          <img className="w-100" src={tableshot3}></img>
+          <img className="w-100" alt='tableshot3' src={tableshot3}></img>
         </Col>
       </Row>
       <Row className="justify-content-center">
         <Col lg={8}>
-          <img className="w-100" src={playground2}></img>
-          <img className="w-100" src={fullbandbw1}></img>
-          <img className="w-100" src={adamandluke}></img>
+          <img className="w-100" alt='playground2' src={playground2}></img>
+          <img className="w-100" alt='fullbandbw1' src={fullbandbw1}></img>
+          <img className="w-100" alt='adamandluke' src={adamandluke}></img>
         </Col>
         <Col lg={3}>
-          <img className="w-100" src={ericdryfka}></img>
-          <img className="w-100" src={adamjones}></img>
-          <img className="w-100" src={lukejones}></img>
-          <img className="w-100" src={josephbrockman}></img>
-          <img className="w-100" src={josiahcrumrine}></img>
+          <img className="w-100" alt='ericdryfka' src={ericdryfka}></img>
+          <img className="w-100" alt='adamjones' src={adamjones}></img>
+          <img className="w-100" alt='lukejones' src={lukejones}></img>
+          <img className="w-100" alt='josephbrockman' src={josephbrockman}></img>
+          <img className="w-100" alt='josiahcrumrine' src={josiahcrumrine}></img>
         </Col>
       </Row>
       <Row>
         <Col lg={6}>
-          <img className="w-100" src={fullbandbw2}></img>
+          <img className="w-100" alt='fullbandbw2' src={fullbandbw2}></img>
         </Col>
         <Col lg={6}>
-          <img className="w-100" src={fullbandbw3}></img>
+          <img className="w-100" alt='fullbandbw3' src={fullbandbw3}></img>
         </Col>
       </Row>
       <Row className="justify-content-center">
         <Col lg={6}>
-          <img className="w-100" src={fullband1}></img>
+          <img className="w-100" alt='fullband1' src={fullband1}></img>
         </Col>
         <Col lg={6}>
-          <img className="w-100" src={fullband3}></img>
-          <img className="w-100" src={fullbandbw4}></img>
+          <img className="w-100" alt='fullband3' src={fullband3}></img>
+          <img className="w-100" alt='fullbandbw4' src={fullbandbw4}></img>
         </Col>
       </Row>
       <Row>
         <Col lg={4}>
-          <img className="w-100" src={adamjones2}></img>
+          <img className="w-100" alt='adamjones2' src={adamjones2}></img>
         </Col>
         <Col lg={4}>
-          <img className="w-100" src={fullband4}></img>
+          <img className="w-100" alt='fullband4' src={fullband4}></img>
         </Col>
         <Col lg={4}>
-          <img className="w-100" src={fullband7}></img>
+          <img className="w-100" alt='fullband7' src={fullband7}></img>
         </Col>
       </Row>
       <Row>
         <Col lg={6}>
-          <img className="w-100" src={fullband6}></img>
+          <img className="w-100" alt='fullband6' src={fullband6}></img>
         </Col>
         <Col lg={6}>
-          <img className="w-100" src={fullband9}></img>
+          <img className="w-100" alt='fullband9' src={fullband9}></img>
         </Col>
       </Row>
 
