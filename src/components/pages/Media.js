@@ -30,7 +30,7 @@ function Media() {
         <h2 className="my-4">Videos</h2>
 
         {/* Video Slot One */}
-        <Col>
+        <Col lg={4} sm={12}>
           <div className="ratio ratio-16x9">
             <iframe
               src="https://www.youtube.com/embed/SKbYLOiXKew"
@@ -48,7 +48,7 @@ function Media() {
         </Col>
 
         {/* Video Slot Two */}
-        <Col>
+        <Col lg={4} sm={12}>
           <div className="ratio ratio-16x9">
             <iframe
               src="https://www.youtube.com/embed/1y90H_DFmFk"
@@ -66,7 +66,7 @@ function Media() {
         </Col>
 
         {/* Video Slot Three */}
-        <Col>
+        <Col lg={4} sm={12}>
           <div className="ratio ratio-16x9">
             <iframe
               src="https://www.youtube.com/embed/kx2lr2b9HVI"
