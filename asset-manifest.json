@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/EsbernSnare/static/css/main.416593f9.css",
-    "main.js": "/EsbernSnare/static/js/main.596d120c.js",
+    "main.css": "/EsbernSnare/static/css/main.28f18ac5.css",
+    "main.js": "/EsbernSnare/static/js/main.91a6c4f9.js",
+    "static/media/doesitfeel.png": "/EsbernSnare/static/media/doesitfeel.c32ba8ebe321e48b86ea.png",
     "static/media/fullband6.jpg": "/EsbernSnare/static/media/fullband6.fa7e091d9f01d0903513.jpg",
     "static/media/fullband7.jpg": "/EsbernSnare/static/media/fullband7.4f233cc50bf3ecb9d5b5.jpg",
     "static/media/fullband3.jpg": "/EsbernSnare/static/media/fullband3.514b636a29f9ce915c55.jpg",
@@ -11,7 +12,6 @@
     "static/media/fullband4.jpg": "/EsbernSnare/static/media/fullband4.2be3d5be03ddf554946a.jpg",
     "static/media/tableshot2.jpg": "/EsbernSnare/static/media/tableshot2.cfd3211fe00507d23c12.jpg",
     "static/media/tableshot1.jpg": "/EsbernSnare/static/media/tableshot1.77517e1b8037f2042f5d.jpg",
-    "static/media/doesitfeel.png": "/EsbernSnare/static/media/doesitfeel.0fbc093147dc584bdfe3.png",
     "static/media/fullband1.jpg": "/EsbernSnare/static/media/fullband1.45e28e667e131cdca3f1.jpg",
     "static/media/josephbrockman.jpg": "/EsbernSnare/static/media/josephbrockman.db23977d0edbfbd0d684.jpg",
     "static/media/josiahcrumrine.jpg": "/EsbernSnare/static/media/josiahcrumrine.1a2247ccdcc01da42a7d.jpg",
@@ -37,11 +37,11 @@
     "static/media/josiahcrumrine-rounded.png": "/EsbernSnare/static/media/josiahcrumrine-rounded.4447e1d25201480b09be.png",
     "static/media/lukejones-rounded.png": "/EsbernSnare/static/media/lukejones-rounded.c0c20c4a0286ab187aa1.png",
     "index.html": "/EsbernSnare/index.html",
-    "main.416593f9.css.map": "/EsbernSnare/static/css/main.416593f9.css.map",
-    "main.596d120c.js.map": "/EsbernSnare/static/js/main.596d120c.js.map"
+    "main.28f18ac5.css.map": "/EsbernSnare/static/css/main.28f18ac5.css.map",
+    "main.91a6c4f9.js.map": "/EsbernSnare/static/js/main.91a6c4f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.416593f9.css",
-    "static/js/main.596d120c.js"
+    "static/css/main.28f18ac5.css",
+    "static/js/main.91a6c4f9.js"
   ]
 }
